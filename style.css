@@ -1,12 +1,33 @@
-/*page title*/
+.container {
+    width: 50%; /* Each container takes half the width of the view */
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
+#fixedContainer{
+    left: 0;
+    position:fixed
+}
+
+#scrollingContainer{
+    right: 0;
+    overflow-y: auto;
+}
+
+#links{
+    position: absolute;
+    right: 30%;
+}
+
+#icon{
+    height: 200px;
+    width: 200px;
+}
+
 h1{
     margin-top:1.2em;
     color: rgb(12,12,140);
-}
-
-#pic {
-    width:30%;
-
 }
 
 #info{
@@ -22,8 +43,17 @@ a:hover{
     color:blue;
 }
 
+p{
+    color: aliceblue;
+}
+
+li{
+    color: aliceblue;
+}
+
 body{
-    background-color: aliceblue;
+    font-family: 'Courier New', monospace; 
+    background-color: rgb(15 23 42);
     padding-left: 200px;
     padding-right: 10px;
 }
@@ -32,17 +62,4 @@ h2{
     color: rgb(12,12,140);
     border-bottom:1px solid;
     margin-top:1.2em;
-}
-
-.sidebar{
-    position:fixed;
-    top:0;
-    left:0;
-
-    width: 175px;
-    height: 100%;
-    background-color: antiquewhite;
-    padding-top: 20px;
-    padding-left: 5px;
-    line-height: 1.5em;
 }
