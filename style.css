@@ -77,3 +77,8 @@ body{
     border-bottom:1px solid;
     margin-top:1.2em;
 }
+
+#me{
+    position: absolute;
+    right: 50%;
+}
