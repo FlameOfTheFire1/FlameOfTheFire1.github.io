@@ -5,6 +5,11 @@
     top: 0;
 }
 
+#skills{
+    column-count: 2;
+    column-gap: 20px;
+}
+
 #fixedContainer{
     left: 0;
     position:fixed;
