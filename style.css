@@ -37,7 +37,7 @@
 
 h1{
     margin-top:1.2em;
-    color: whitesmoke;
+    color: #DC143C;
 }
 
 #info{
@@ -63,9 +63,11 @@ li{
 
 body{
     font-family: 'cambria', serif; 
-    background-color: rgb(15 23 42);
-    padding-left: 200px;
-    padding-right: 10px;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    background: radial-gradient(ellipse at top, #3b5779 1%, #161e2e 70%)
+    /*background: radial-gradient(ellipse at top, transparent 2%, #161e2e)*/
 }
 
 #name{
@@ -74,7 +76,7 @@ body{
 }
 
 #title{
-    color: whitesmoke;
+    color: #2A3439;
 }
 
 .sections{
@@ -87,3 +89,4 @@ body{
     position: absolute;
     right: 50%;
 }
+

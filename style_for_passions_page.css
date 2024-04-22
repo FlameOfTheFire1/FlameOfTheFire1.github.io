@@ -1,0 +1,89 @@
+.container {
+    width: 50%; /* Each container takes half the width of the view */
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
+#skills{
+    column-count: 2;
+    column-gap: 20px;
+}
+
+#fixedContainer{
+    left: 0;
+    position:fixed;
+}
+
+#scrollingContainer{
+    right: 0;
+    overflow-y: auto;
+}
+
+#links{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+}
+
+#icon{
+    height: 200px;
+    width: 200px;
+}
+
+#textContainer{
+    width: 70%;
+}
+
+h1{
+    margin-top:1.2em;
+    color: whitesmoke;
+}
+
+#info{
+    line-height: 1.5em;
+}
+
+a{
+    text-decoration: none;
+    color: palevioletred;
+}
+
+a:hover{
+    color:blue;
+}
+
+p{
+    color: aliceblue;
+}
+
+li{
+    color: aliceblue;
+}
+
+body{
+    font-family: 'cambria', serif; 
+    background-color: rgb(15 23 42);
+    padding-left: 200px;
+    padding-right: 10px;
+}
+
+#name{
+    font-family: 'cambria', serif;
+    font-size: 400%;
+}
+
+#title{
+    color: whitesmoke;
+}
+
+.sections{
+    color: whitesmoke;
+    border-bottom:1px solid;
+    margin-top:1.2em;
+}
+
+#me{
+    position: absolute;
+    right: 50%;
+}
