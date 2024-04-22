@@ -37,7 +37,7 @@
 
 h1{
     margin-top:1.2em;
-    color: #DC143C;
+    color: #F8F9FA;
 }
 
 #info{
@@ -54,11 +54,11 @@ a:hover{
 }
 
 p{
-    color: aliceblue;
+    color: #CED4DA;
 }
 
 li{
-    color: aliceblue;
+    color: #CED4DA;
 }
 
 body{
@@ -66,8 +66,9 @@ body{
     padding: 0;
     margin: 0;
     height: 100vh;
-    background: radial-gradient(ellipse at top, #3b5779 1%, #161e2e 70%)
-    /*background: radial-gradient(ellipse at top, transparent 2%, #161e2e)*/
+    background: radial-gradient(ellipse at top, #26384d 1%, #161e2e 70%)
+    /*background: radial-gradient(ellipse at top, #3b5779 1%, #161e2e 70%)
+    background: radial-gradient(ellipse at top, transparent 2%, #161e2e)*/
 }
 
 #name{
@@ -76,7 +77,7 @@ body{
 }
 
 #title{
-    color: #2A3439;
+    color: #F8F9FA;
 }
 
 .sections{
