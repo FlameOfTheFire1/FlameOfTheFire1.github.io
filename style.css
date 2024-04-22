@@ -1,5 +1,5 @@
 .container {
-    width: 50%; /* Each container takes half the width of the view */
+    width: 50%; 
     height: 100%;
     position: absolute;
     top: 0;
@@ -22,17 +22,18 @@
 
 #links{
     position: absolute;
+    right: 0;
     top: 10%;
-    left: 40%;
+    width: 70%;
+}
+
+#textContainer{
+    width: 70%;
 }
 
 #icon{
     height: 200px;
     width: 200px;
-}
-
-#textContainer{
-    width: 70%;
 }
 
 h1{
