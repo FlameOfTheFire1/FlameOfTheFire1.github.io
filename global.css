@@ -1,0 +1,15 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: radial-gradient(ellipse at top, #26384d 1%, #161e2e 70%)
+}
+
+p{
+    color: #CED4DA;
+}
+
+li{
+    color: #CED4DA;
+}
