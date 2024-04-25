@@ -5,74 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lily's Webpage</title>
-    <link rel="stylesheet" type="text/css" href="style_for_projects_page.css"/>
+    <link rel="stylesheet" type="text/css" href="global.css"/>
+    <link rel="stylesheet" type="text/css" href="styles/style_for_projects_page.css"/>
     <script src="https://kit.fontawesome.com/80579d58ba.js" crossorigin="anonymous"></script>
 </head>
 <body>
     
-    <div id = "scrollingContainer" class = "container">
-    <div id = "textContainer">
-    <table>
-        <tr>
-            <td>
-                <img id = "icon" src = "001.png" alt ="random photo">
-            </td>
-            <td>
-                <ul>
-                    <li><h3>Oops! Page Under Construction!</h3>
-                </li>
-                </ul>
-            </td>
-        </tr>
-    </table>
-
-    <h2 class = "sections">Projects</h2>
-    <p>
-        Boids-but-With-Dragons
-        <ul>
-            <li>Animated dragon sprites are boids simulating a flock of birds!</li>
-        </ul>
-        <p><br>Sprite-Game</p>
-        <ul>
-            <li>Animated penguin sprite moves around canvas with arrow keys.</li>
-        </ul>
-        <p><br>BudgetBuddy</p>
-        <ul>
-            <li>Implemented higher-level design patterns, better documentation, and added new features to improve an existing application.</li>
-        </ul>
-        <p><br>Tetris-Test</p>
-        <ul>
-            <li>Tested a Tetris application with JUnit.</li>
-        </ul>
-        <p><br>How to Feed your Dragon</p>
-        <ul>
-            <li>A desktop application that randomizes your bearded dragon's diet by building a menu from safe foods.</li>
-        </ul>
-        <p><br>2-1-2D-game</p>
-        <ul>
-            <li>Move the viewpoint through a sequence of images.</li>
-        </ul>
-        <p><br>LLM Tool Hub</p>
-        <ul>
-            <li>Built two internal tools using LLMs for local startup SigParser.</li>
-        </ul>
-        <p><br>EZ-RSVP</p>
-        <ul>
-            <li>A website for RSVPing to events.</li>
-        </ul>
-        <p><br>Tamagotchi Borb Edition</p>
-        <ul>
-            <li>Implemented a SMS tamagotchi game where the player earns bird emoji art for caring for the resident tamagotchi.</li>
-        </ul>
-        <p>For more details, click the "<a href="https://www.csusm.edu/" target="_blank">Projects</a>" link!</p>
-    </p>
-    </div>
-    </div>
-
-    <div id = "fixedContainer" class = "container">
-        <div id = "links">
+    <div class = "container">
+        <div id = "fixed">
+        <div id = "navPanel">
             <h1 id = "name"> Lily Bailey </h1>
-            <h2 id = "title"> Software Engineering Student </h2>
+            <h2 id = "title"> Junior Software Engineer </h2>
             <div id = "line">
                 <p id = "one-liner">
                     Software Engineering Student graduating from CSUSM this May!
@@ -89,8 +32,66 @@
                 </ul>
             </nav>
 
-            
         </div>
     </div>
+    <div id = "scrollable">
+
+        <table>
+            <tr>
+                <td>
+                    <img id = "icon" src = "images/001.png" alt ="random photo">
+                </td>
+                <td>
+                        <h3>Oops! Page Under Construction.</h3>
+                </td>
+            </tr>
+        </table>
+
+
+    <h2 class = "sections">Projects</h2>
+    <p>
+        <h4>Boids-but-With-Dragons</h4>
+        <ul>
+            <li>Animated dragon sprites are boids simulating a flock of birds!</li>
+        </ul>
+        <p><h4><br>Sprite-Game</h4></p>
+        <ul>
+            <li>Animated penguin sprite moves around canvas with arrow keys.</li>
+        </ul>
+        <p><h4><br>BudgetBuddy</h4></p>
+        <ul>
+            <li>Implemented higher-level design patterns, better documentation, and added new features to improve an existing application.</li>
+        </ul>
+        <p><h4><br>Tetris-Test</h4></p>
+        <ul>
+            <li>Tested a Tetris application with JUnit.</li>
+        </ul>
+        <p><h4><br>How to Feed your Dragon</h4></p>
+        <ul>
+            <li>A desktop application that randomizes your bearded dragon's diet by building a menu from safe foods.</li>
+        </ul>
+        <p><h4><br>2-1-2D-game</h4></p>
+        <ul>
+            <li>Move the viewpoint through a sequence of images.</li>
+        </ul>
+        <p><h4><br>LLM Tool Hub</h4></p>
+        <ul>
+            <li>Built two internal tools using LLMs for local startup SigParser.</li>
+        </ul>
+        <p><h4><br>EZ-RSVP</h4></p>
+        <ul>
+            <li>A website for RSVPing to events.</li>
+        </ul>
+        <p><h4><br>Tamagotchi Borb Edition</h4></p>
+        <ul>
+            <li>Implemented a SMS tamagotchi game where the player earns bird emoji art for caring for the resident tamagotchi.</li>
+        </ul>
+        <p>For more details, click the "<a href="projects.html">Projects</a>" link!</p>
+    </p>
+        <br>
+        <br>
+    
+    </div>
+</div>
 </body>
 </html>
